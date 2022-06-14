@@ -1,0 +1,26 @@
+.ds-back-button-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 5%;
+}
+
+.ds-back-button {
+  margin: 6%;
+}
+
+.ds-back-button-container {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(
+    101% 101% at bottom right,
+    transparent 98.6%,
+    #0d0d0c
+  );
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
