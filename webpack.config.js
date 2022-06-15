@@ -7,7 +7,7 @@ const deps = require('./package.json').dependencies;
 
 module.exports = {
   output: {
-    publicPath: 'https://poc-mfe-list.vercel.app/',
+    publicPath: 'https://poc-mfe-details.vercel.app/',
     clean: true,
   },
 
